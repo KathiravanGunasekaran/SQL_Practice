@@ -1,0 +1,1 @@
+Alter table Doctors ADD UNIQUE(empID);
