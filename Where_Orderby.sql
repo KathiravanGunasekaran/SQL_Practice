@@ -1,0 +1,1 @@
+select Fname, Lname from Doctors where Position ='Ortho' ORDER BY SSN; 
