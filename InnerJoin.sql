@@ -1,0 +1,1 @@
+select CONCAT(d.Fname,' ',d.Lname) as DoctorName, p.Name as PatientName from Doctors d Inner Join Patients p on d.empID=p.empID; 
