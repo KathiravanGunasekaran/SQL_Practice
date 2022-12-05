@@ -1,0 +1,1 @@
+select Count(empID) as nOOfDoc ,Position from Doctors Group by Position HAVING Count(empID)>1;
