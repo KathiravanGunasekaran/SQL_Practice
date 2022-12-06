@@ -1,3 +1,4 @@
+--Prepare script to add foreign key constraint on any one table
 CREATE TABLE Patients (
     ssn int,
     PatientID int PRIMARY KEY,
